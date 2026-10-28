@@ -1,0 +1,72 @@
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.nama {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #4368ac;
+    color: #7CFF6B;
+
+    font-size: 20px;
+    font-weight: normal;
+
+    text-shadow:
+        0 0 5px #39FF14,
+        0 0 10px #39FF14,
+        0 0 20px #39FF14;
+
+    border-radius: 12px;
+
+    box-shadow: 5px 3px 8px rgba(0, 0, 0, 0.3);
+
+    margin-bottom: 10px;
+}
+
+.background {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+
+    border-radius: 10px;
+
+    background: linear-gradient(
+        to bottom left,
+        #a9c8ef,
+        #8eaddb,
+        #d9b5d1
+    );
+
+    box-shadow: 5px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.foto {
+    height: 470px;
+    width: auto;
+    max-width: 80%;
+
+    object-fit: contain;
+    object-position: bottom;
+
+    filter:
+        sepia(15%)
+        hue-rotate(65deg)
+        saturate(75%)
+        drop-shadow(8px 0 5px rgba(0, 0, 0, 0.8));
+}
