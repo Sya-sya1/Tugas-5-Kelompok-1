@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .display{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .TextBox{
+            background-color: hsl(185, 44%, 77%);
+            box-shadow: 0px 0px 10px hsl(202, 63%, 36%);
+            color:hsl(209, 53%, 34%);
+            text-shadow: 0px 2px 3px hsl(202, 54%, 55%);
+
+            width: 85%;
+            border-radius: 10px;
+
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        .PhotoBox{
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+            width: 85%;
+            height: 250px;
+            border-radius: 10px;
+            background: linear-gradient(hsl(185, 44%, 77%),rgb(55, 79, 131));
+            overflow: hidden;
+        }
+
+        .Girlimg{
+            filter: hue-rotate(200deg)
+        }
+    </style>
+</head>
+<body>
+    <div class="display">
+        <div class="TextBox">
+            <h2>Developer: Tasya</h2>
+        </div>
+
+        <div class="PhotoBox">
+            <img class="Girlimg" src="photo3.png" height="250px" alt="Profile">
+        </div>
+    </div>
+</body>
+</html>
